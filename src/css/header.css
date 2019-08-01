@@ -1,0 +1,185 @@
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+
+  }
+  .row {
+  
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height:200px;
+    background: url('../images/images.jpeg');
+    background-repeat: no-repeat;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .left-section{
+    max-width:50%;
+    display:flex;
+    
+  
+  }
+  .right-section ul li:first-child {
+    padding-right: 34px;
+}
+
+.right-section ul li {
+    display: inline-block;
+   
+}
+.right-section a{
+    text-decoration: none;
+    color: rgba(40, 40, 40, 0.66);
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.logo{
+      width:100%;
+      height:auto;
+      object-fit :cover;
+  }
+  .cursive {
+    font-size: 40px;
+    color: #cf312f;
+    text-align: right;
+    padding-top: 20px;
+    clear: both;
+    margin: 0px;
+    font-family: 'Great Vibes', cursive;
+}
+.phone, .phone .fa, .mail, .mail a, .mail .fa {
+    color: rgba(40, 40, 40, 0.66);
+    font-size: 14px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+.fa-phone:before {
+    content: "\f095";
+}
+
+
+
+.MuiAppBar-root {
+    width: 100%;
+    display: flex;
+    z-index: 1100;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .MuiAppBar-positionFixed {
+    top: 0;
+    left: auto;
+    right: 0;
+    position: fixed;
+  }
+  .MuiAppBar-positionAbsolute {
+    top: 0;
+    left: auto;
+    right: 0;
+    position: absolute;
+  }
+  .MuiAppBar-positionSticky {
+    top: 0;
+    left: auto;
+    right: 0;
+    position: sticky;
+  }
+  .MuiAppBar-positionStatic {
+    position: static;
+  }
+  .MuiAppBar-positionRelative {
+    position: relative;
+  }
+  .MuiAppBar-colorDefault {
+    color: black!important;
+    background-color: lightseagreen!important;
+    background:url('../images/img.jpeg')!important;
+    object-fit: cover;
+    height:auto;
+  }
+  .MuiAppBar-colorPrimary {
+    color: #fff;
+    background-color: #3f51b5;
+  }
+  .MuiAppBar-colorSecondary {
+    color: #fff;
+    background-color: #f50057;
+  }
+  .MuiTab-textColorPrimary {
+    color: black!important;
+}
+.MuiTab-root {
+    font-size: 15px!important;
+    font-weight: 500;
+    min-width: 160px;
+}
+
+
+
+
+
+.MuiTab-root {
+    padding: 6px 12px;
+    overflow: hidden;
+    position: relative;
+    font-size: 0.875rem;
+    max-width: 264px;
+    min-width: 72px;
+    box-sizing: border-box;
+    min-height: 48px;
+    text-align: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    white-space: normal;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+  }
+  @media (min-width:960px) {
+    .MuiTab-root {
+      font-size: 0.8125rem;
+      min-width: 160px;
+    }
+  }
+  .MuiTab-labelIcon {
+    min-height: 72px;
+    padding-top: 9px;
+  }
+  .MuiTab-labelIcon .MuiTab-wrapper > *:first-child {
+    margin-bottom: 6px;
+  }
+  .MuiTab-textColorInherit {
+    color: inherit;
+    opacity: 0.7;
+  }
+  .MuiTab-textColorInherit.Mui-selected {
+    opacity: 1;
+  }
+  .MuiTab-textColorInherit.Mui-disabled {
+    opacity: 0.4;
+  }
+  .MuiTab-textColorPrimary {
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .MuiTab-textColorPrimary.Mui-selected {
+    color: blue!important;
+  }
+  
+ 
