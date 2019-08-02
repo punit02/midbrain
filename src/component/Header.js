@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import Image from '../images/large123.png'
-import MindImage from '../images/mind.png'
+import GirlImage from '../images/girl.jpg'
 import '../css/header.css'
 import { ScrollableTabsButtonAuto } from './navigationtab'
 class Header extends React.Component {
@@ -12,9 +12,9 @@ class Header extends React.Component {
                 <div className="container">
 
                     <div className="row">
-
                         <div className="left-section">
-                            <img className="logo" src={Image} className="logo" width="800" height="200" alt="geniusmindacademy" />
+                        <img src={GirlImage} className="logo1" width="200" height="auto" alt="geniusmindacademy" />
+                        <img className="logo" src={Image} className="logo" width="800" height="200" alt="geniusmindacademy" />
                         </div>
 
                         <div className="right-section">
@@ -27,7 +27,7 @@ class Header extends React.Component {
                                     </li>
 
                                 </ul>
-                                <p className="cursive red">The first step towards genius</p>
+                                <p className="cursive red">The Midbrain Activation Program</p>
                                 {/* <img src={MindImage} className="logo1" width="300" height="100" margin-right="100" alt="geniusmindacademy" /> */}
                             </div>
 

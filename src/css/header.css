@@ -2,8 +2,7 @@
   .container {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+   
   
 
   }
@@ -45,6 +44,7 @@ li {
       width:100%;
       height:auto;
       object-fit :cover;
+      
   }
   .cursive {
     font-size: 40px;
@@ -107,11 +107,11 @@ li {
     position: relative;
   }
   .MuiAppBar-colorDefault {
-    color: black!important;
-    background-color: lightseagreen!important;
-    background:url('../images/img.jpeg')!important;
+    color: white!important;
+    background-color: black!important;
+    /* background:url('../images/img.jpeg')!important;
     object-fit: cover;
-    height:auto;
+    height:auto; */
   }
   .MuiAppBar-colorPrimary {
     color: #fff;
@@ -122,7 +122,7 @@ li {
     background-color: #f50057;
   }
   .MuiTab-textColorPrimary {
-    color: black!important;
+    color: white!important;
 }
 .MuiTab-root {
     font-size: 15px!important;
@@ -181,5 +181,9 @@ li {
   .MuiTab-textColorPrimary.Mui-selected {
     color: blue!important;
   }
+
+  .MuiBox-root-97 {
+    padding:0px!important;
+}
   
  
