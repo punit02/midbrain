@@ -7,8 +7,8 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                {/* <Header></Header> */}
-                <Slider></Slider>
+                <Header></Header>
+               
 
             </div>
         )

@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import Image from '../images/large123.png'
 import MindImage from '../images/mind.png'
 import '../css/header.css'
-import {ScrollableTabsButtonAuto} from './navigationtab'
+import { ScrollableTabsButtonAuto } from './navigationtab'
 class Header extends React.Component {
     render() {
         return (
@@ -14,23 +14,23 @@ class Header extends React.Component {
                     <div className="row">
 
                         <div className="left-section">
-                            <img className="logo"src={Image} className="logo" width="800" height="200" alt="geniusmindacademy" />
+                            <img className="logo" src={Image} className="logo" width="800" height="200" alt="geniusmindacademy" />
                         </div>
-                     
+
                         <div className="right-section">
-                           		
+
                             <div className="textwidget">
-                                 <ul>
-                                     <li>
-                                            <span className="phone"><i className="fa fa-phone"></i>&nbsp;&nbsp;Phone: <a href="tel:+918209359236"> +91820 935 9236</a> &nbsp;&nbsp;</span>
-                                             <span className="mail"><i className="fa fa-envelope-o"></i>&nbsp;&nbsp;<a href="mailto:ashishpurohit7@gmail.com">ashishpurohit7@gmail.com</a></span>
-                                     </li>
-                                        
-                                 </ul>
-                                     {/* <p className="cursive red">The first step towards genius</p> */}
-                                     {/* <img src={MindImage} className="logo1" width="300" height="100" margin-right="100" alt="geniusmindacademy" /> */}
-                             </div>
-                         
+                                <ul>
+                                    <li>
+                                        <span className="phone"><i className="fa fa-phone"></i>&nbsp;&nbsp;Phone: <a href="tel:+918209359236"> +91820 935 9236</a> &nbsp;&nbsp;</span>
+                                        <span className="mail"><i className="fa fa-envelope-o"></i>&nbsp;&nbsp;<a href="mailto:ashishpurohit7@gmail.com">ashishpurohit7@gmail.com</a></span>
+                                    </li>
+
+                                </ul>
+                                <p className="cursive red">The first step towards genius</p>
+                                {/* <img src={MindImage} className="logo1" width="300" height="100" margin-right="100" alt="geniusmindacademy" /> */}
+                            </div>
+
 
                         </div>
 
@@ -46,7 +46,7 @@ class Header extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        showImage: state.donorRegistration. userLatitude,
+        showImage: state.donorRegistration.userLatitude,
     }
 }
 export default connect(mapStateToProps)(Header)
