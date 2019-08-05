@@ -1,14 +1,10 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import Image from '../images/large123.png'
-import MindImage from '../images/mind.png'
 import '../css/header.css'
-import { ScrollableTabsButtonAuto } from './navigationtab'
+
 class Header extends React.Component {
     render() {
         return (
-          
-
                     <div id='slides-section'>
                         <div id='slides'>
                             <img alt="Beyond Midbrain Activation 01" src="http://2.bp.blogspot.com/--TD9KpfJx3g/VZAlcADIeEI/AAAAAAAAA3E/gq-BJRGFKSg/s1600/Beyond_Midbrain_Activation_03.jpg" className="slidesjs-slide" slidesjs-index="0" style={{ position: "absolute", top: "0px", left: "0px", width: "100%", zIndex: "0", backfaceVisibility: "hidden", display: "none" }} />
@@ -18,7 +14,6 @@ class Header extends React.Component {
                             
                         </div>
                     </div>
-
 
         )
     }

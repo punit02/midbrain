@@ -19,7 +19,7 @@
     max-height: 100%; */
   }
   .left-section{
-    max-width:50%;
+    max-width:55%;
     display:flex;
     
   
@@ -185,5 +185,56 @@ li {
   .MuiBox-root-97 {
     padding:0px!important;
 }
+
+#content {
+  padding: 50px 0;
+}
+.container1 {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left:auto;
+  margin-right:auto;
+ 
+}
+.row1{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+@media (min-width: 1200px)
+{
+.container1 {
+    width: 1170px;
+}
+}
+@media (min-width: 992px)
+{
+.container1 {
+    width: 970px;
+}
+}
+
+@media (min-width: 768px)
+{
+.container1 {
+    width: 750px;
+}
   
+}
+#content {
+  padding:50px 0;
+}
+#content p {
+  font-family: 'Droid Sans', sans-serif;
+   margin-bottom:15px; 
+   text-align:justify; 
+   line-height: 24px;
+  }
+
+  .page-title {
+    width: 100%;
+    height:10%;
+    padding: 25px 0;
+    background: url(../images/page-header.jpg) no-repeat top left;
+}
+
  
