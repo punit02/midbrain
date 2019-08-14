@@ -4,6 +4,7 @@ import Image from '../images/banner.jpg'
 import GirlImage from '../images/girl.jpg'
 import '../css/header.css'
 import { ScrollableTabsButtonAuto } from './navigationtab'
+import Slider from './slider';
 class Header extends React.Component {
     render() {
         return (
@@ -36,6 +37,7 @@ class Header extends React.Component {
 
                     </div>
                     <ScrollableTabsButtonAuto></ScrollableTabsButtonAuto>
+                    {/* <Slider></Slider> */}
 
                 </div>
 

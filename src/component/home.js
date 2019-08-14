@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Slider from './slider'
+import Footer from './footer'
 
 import {connect} from 'react-redux'
 class Home extends React.Component{
@@ -8,7 +9,7 @@ class Home extends React.Component{
         return(
             <div>
                 <Header></Header>
-               
+               <Footer></Footer>
 
             </div>
         )
