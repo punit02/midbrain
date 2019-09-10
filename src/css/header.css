@@ -2,6 +2,7 @@
   .container {
     margin-right: auto;
     margin-left: auto;
+    width:100%;
    
   
 
@@ -12,6 +13,7 @@
     flex-direction: row;
     background-color: white;
     height:200px;
+    width:100%;
     /* background: url('../images/images.jpeg');
     background-repeat: no-repeat;
     object-fit: contain;
@@ -191,15 +193,12 @@ li {
 }
 
 .row1{
-  display: flex;
+    display: flex;
     flex-direction: row;
     background-color: whitesmoke;
     margin:1%;
     padding:1%;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 20px 0 rgba(0, 0, 0, 0.2);
-
-
-   
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 20px 0 rgba(0, 0, 0, 0.2);  
 
 }
 @media (min-width: 1200px)
@@ -208,18 +207,37 @@ li {
     width: 1170px;
 }
 }
-@media (min-width: 992px)
+@media screen and (max-width: 992px)
 {
 .container1 {
     width: 970px;
 }
+.row1{
+  
+  flex-direction: column;
+}
+#content {
+  padding: 25px;
 }
 
-@media (min-width: 768px)
+
+}
+
+@media screen and (max-width: 768px)
 {
+  .img-responsive{
+    max-width:100%;
+      height:auto;
+      object-fit :cover;
+      
+  }
 .container1 {
     width: 750px;
 }
+#content {
+  padding: 0px;
+}
+
   
 }
 
@@ -244,9 +262,6 @@ li {
   padding:1%;
   background-color: whitesmoke;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 20px 0 rgba(0, 0, 0, 0.2);
-
-
-
 }
 
 #mk-page-introduce.intro-left{
@@ -294,6 +309,11 @@ h1.entry-title {
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
+  padding:1%;
+}
+
+.entry-content{
+  padding:1%;
 }
 
  

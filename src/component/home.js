@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './Header'
-import Slider from './slider'
 import Footer from './footer'
 
 import {connect} from 'react-redux'
@@ -10,7 +9,6 @@ class Home extends React.Component{
             <div>
                 <Header></Header>
                <Footer></Footer>
-
             </div>
         )
     }
@@ -20,7 +18,7 @@ class Home extends React.Component{
 
 function mapStateToProps(state){
     return{
-        showImage: state.donorRegistration. userLatitude
+        showImage: state.donorRegistration.userLatitude
 
     }
 }

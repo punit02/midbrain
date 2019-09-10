@@ -18,7 +18,7 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
-    showImage: state.donorRegistration. userLatitude,
+    showImage: state.donorRegistration.userLatitude,
 
   };
 }

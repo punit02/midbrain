@@ -1,17 +1,23 @@
-#slides {
-    display: none;
+    #slides {
+      display: none;
+      margin-top:-1%;
+     
     }
+   
     #slides .slidesjs-container {
     margin-bottom: 10px;
     }
+
     #slides .slidesjs-previous {
  
     float: left;
     }
+
     #slides .slidesjs-next {
     margin-right: 5px;
     float: left;
     }
+
     .slidesjs-pagination {
     margin: 6px 0 0;
     float: right;
@@ -26,7 +32,7 @@
          z-index: 1; 
          left: 0px; 
          width: 1440px;
-       height:600px!important;
+       height:500px!important;
     }
     .slidesjs-pagination li a {
     display: block;
@@ -70,6 +76,7 @@
     .navigation-slider.slidesjs-slide {
     width: 1000px!important;
     margin: auto;
+    height:500px!important;
     }
     .slidesjs-next.slidesjs-navigation {
     position: relative;
@@ -88,7 +95,7 @@
     }
     #slides {
     float: left;
-    height: 370px;
+    height: 370px!important;
     width: 100%;
     }
     .slidesjs-pagination {

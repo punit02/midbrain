@@ -76,11 +76,11 @@ export function ScrollableTabsButtonAuto() {
           <Tab label="Item Seven" {...a11yProps(6)} /> */}
         </Tabs>
       </AppBar>
-      <Slider></Slider>
-      <TabPanel value={value} index={0}>
      
+      <TabPanel value={value} index={0}>
 
-        <div className="theme-content false" itemprop="mainEntityOfPage">
+      <Slider></Slider>
+        <div className="theme-content false" itemProp="mainEntityOfPage">
 
           <div data-mk-stretch-content="true" className="wpb_row vc_row vc_row-fluid  mk-fullwidth-false  attched-false     js-master-row  mk-grid mk-in-viewport">
 
@@ -180,109 +180,87 @@ export function ScrollableTabsButtonAuto() {
 
           </div>
         </div>
-										
+
       </TabPanel>
-    <TabPanel value={value} index={1}>
-    
-    <div class="middle-align">
-  
-        <div class="site-main sitefull">
-							
-<article id="post-71" class="post-71 page type-page status-publish hentry">
-	<header class="entry-header">
-		<h1 class="entry-title">About Us</h1>
-	</header>
+      <TabPanel value={value} index={1}>
 
-	<div class="entry-content">
-		{/* <p><img class="alignright wp-image-292 " src="http://dmitknowyourtalent.com/wp-content/uploads/2018/10/img13-1-300x225.jpg" alt="" width="379" height="284" srcset="http://dmitknowyourtalent.com/wp-content/uploads/2018/10/img13-1-300x225.jpg 300w, http://dmitknowyourtalent.com/wp-content/uploads/2018/10/img13-1.jpg 600w" sizes="(max-width: 379px) 100vw, 379px"></p> */}
-<p style={{textAlign: "center"}}>
-</p><h2>Company Profile</h2>
-<p></p>
-<p>We have established in 2019 in Jhunjhunu. We started this company with a vision and commitment for excellence. We help to value addition to right parenting and their child by placing right profession for their child’s inborn talent.</p>
-<p>Nearly eight years of experience, we believe we are serving the best in the market as far as career guidance and counseling is concerned.</p>
-<p>Nearly perfect accuracy rate of the report is ensured. We give follow up and free lifetime counseling to every client. A complete self help guide for the child and parents for life.</p>
-<p>Not only this we have made some more programs to understand children, such as:</p>
-<ul>
-<li>Intelligence Building Program</li>
-<li>Advanced Brain Synchronization</li>
-<li>Soft Skill Development</li>
-<li>Personality Development</li>
-<li>Image Building Consultants</li>
+        <div className=" theme-content">
+          <div className="entry-content">
+            {/* <p><img className="alignright wp-image-292 " src="http://dmitknowyourtalent.com/wp-content/uploads/2018/10/img13-1-300x225.jpg" alt="" width="379" height="284" srcset="http://dmitknowyourtalent.com/wp-content/uploads/2018/10/img13-1-300x225.jpg 300w, http://dmitknowyourtalent.com/wp-content/uploads/2018/10/img13-1.jpg 600w" sizes="(max-width: 379px) 100vw, 379px"></p> */}
+            <p style={{ textAlign: "center" }}>
+            </p><h2>Company Profile</h2>
+            <p></p>
+            <p>We have established in 2019 in Jhunjhunu. We started this company with a vision and commitment for excellence. We help to value addition to right parenting and their child by placing right profession for their child’s inborn talent.</p>
+            <p>We believe we are serving the best in the market as far as career guidance and counseling is concerned.</p>
+            <p>Nearly perfect accuracy rate of the report is ensured. We give follow up and free lifetime counseling to every client. A complete self help guide for the child and parents for life.</p>
+            <p>Not only this we have made some more programs to understand children, such as:</p>
+            <ul>
+              <li>Intelligence Building Program</li>
+              <li>Advanced Brain Synchronization</li>
+              <li>Soft Skill Development</li>
+              <li>Personality Development</li>
+              <li>Image Building Consultants</li>
 
-</ul>
-			</div>
-	</article>							        </div>
-        <div class="clear"></div>
-    </div>
-      </TabPanel>
-    <TabPanel value={value} index={2}>
-    
-      <section>
-        <div class="page-title">
-          <div class="container1">
-            <div class="row2">
-              <div class="col-md-6 col-xs-12">
-                <h2>About Midbrain Activation</h2>
-              </div>
-              <div class="col-md-6 col-xs-12 text-center">
-
-              </div>
-            </div>
+            </ul>
           </div>
         </div>
-      </section>
-      <section id="content">
-        <div class="container">
-          <div class="row1">
-            <div class="col-md-8">
-              <p>Midbrain activation training is one that is able to activate the brain waves called alpha-theta in a child, where these waves are able to activate the super intuition, and this is directly proven. What makes it interesting, exciting is to make the child Read, Write, Paint and do some activities with his/her eyes closed. </p>
-              <p>The children are able to read and do anything with eyes closed, such as identifying a card, color, reading a newspaper’s headline, identifying something inside a closed box identifying something behind a wall, walking/cycling/ shooting with eyes closed, playing games on a  PC with eyes closed, etc.</p>
-              <p>Midbrain Activation or ESP Enhancement Programme has recently been spreading well all across the world. Generally speaking, the countries already conducting brain activation are: Japan, India, Singapore, Russia, Tibet, Malaysia, Indonesia, Ceylon, Australia, Thailand, China, Hongkong, and many other countries to follow. Japan has in fact conducted the research for 40 years. other countries all apply scientific method (with technology). </p>
-
-            </div>
-            <div class="col-md-4">
-              <img src={BrainImage} class="img-responsive" alt="human-brain" />
-            </div>
-          </div>
-          
-          <div class="row1">
-            <div class="col-md-12">
-            <h2>Human Brain</h2>
-              <p>According to the scientists’ reviews, man only incorporates less than 10% of his brain capacity. This shows how awesome a human can be, if it’s utilized more. Although man only uses less than 10% of his brain’s ability, we can witness the created human cultures that are really extraordinary. You would surely agree if I said that as era changes from time to time and through centuries, it needs even more sophisticated human brains, since the challenges will be more difficult in the future, compared to now Therefore, man needs to reinforce his brain more sophisticated than before, in order to be able to overcome the challenges.</p>
-              <p>Man has as many as 1 trillion of brain cells. Compare with a bee which has only 7000 cells. With only 7000 brain cells, a bee is able to do incredible things such as establishing a very high precision house of honey, hexagonal in shape, where they can store maximum amount of honey with minimum materials. Many of our mathematicians are astonished by the bee`s capability. So, if we compare with a bee which has only 7000 brain cells, a Man with 1 trillion brain cells shall accordingly be able to develop his brain’s capability more awesome. Do you know that 1 brain cell of a man has a power capable to beat any most sophisticated computer?! </p>
-
-            </div>
-          </div>
-          <div class="row1">
-            <div class="col-md-12">
-              <h2>Human Brain Wave</h2>
-              <ul>
-                <li><strong>Gamma:</strong> Ideas, language and memory processing, and learning.</li>
-                <li><strong>Beeta:</strong> Alert,busy,active. Most adult in beta waves.</li>
-                <li><strong>Alpha:</strong> Relax (access intuition/genius condition/brain optimum).</li>
-                <li><strong>Beeta:</strong> Deep meditation (almost sleep). Often feel spiritual experiences.</li>
-                <li><strong>Delta:</strong> Sleep.</li>
-              </ul>
-            </div>
-          </div>
 
 
-
-        </div>
-      </section>
-    </TabPanel>
-    <TabPanel value={value} index={3}>
-   
-      Item Four
       </TabPanel>
-    <TabPanel value={value} index={4}>
-      Item Five
+      <TabPanel value={value} index={2}>
+        <section id="content">
+          <div className="container">
+            <div className="row1">
+              <div className="col-md-8">
+              <h2>About Midbrain Activation</h2>
+                <p>Midbrain activation training is one that is able to activate the brain waves called alpha-theta in a child, where these waves are able to activate the super intuition, and this is directly proven. What makes it interesting, exciting is to make the child Read, Write, Paint and do some activities with his/her eyes closed. </p>
+                <p>The children are able to read and do anything with eyes closed, such as identifying a card, color, reading a newspaper’s headline, identifying something inside a closed box identifying something behind a wall, walking/cycling/ shooting with eyes closed, playing games on a  PC with eyes closed, etc.</p>
+                <p>Midbrain Activation or ESP Enhancement Programme has recently been spreading well all across the world. Generally speaking, the countries already conducting brain activation are: Japan, India, Singapore, Russia, Tibet, Malaysia, Indonesia, Ceylon, Australia, Thailand, China, Hongkong, and many other countries to follow. Japan has in fact conducted the research for 40 years. other countries all apply scientific method (with technology). </p>
+
+              </div>
+              <div className="col-md-4">
+                <img src={BrainImage} className="img-responsive" alt="human-brain" />
+              </div>
+            </div>
+
+            <div className="row1">
+              <div className="col-md-12">
+                <h2>Human Brain</h2>
+                <p>According to the scientists’ reviews, man only incorporates less than 10% of his brain capacity. This shows how awesome a human can be, if it’s utilized more. Although man only uses less than 10% of his brain’s ability, we can witness the created human cultures that are really extraordinary. You would surely agree if I said that as era changes from time to time and through centuries, it needs even more sophisticated human brains, since the challenges will be more difficult in the future, compared to now Therefore, man needs to reinforce his brain more sophisticated than before, in order to be able to overcome the challenges.</p>
+                <p>Man has as many as 1 trillion of brain cells. Compare with a bee which has only 7000 cells. With only 7000 brain cells, a bee is able to do incredible things such as establishing a very high precision house of honey, hexagonal in shape, where they can store maximum amount of honey with minimum materials. Many of our mathematicians are astonished by the bee`s capability. So, if we compare with a bee which has only 7000 brain cells, a Man with 1 trillion brain cells shall accordingly be able to develop his brain’s capability more awesome. Do you know that 1 brain cell of a man has a power capable to beat any most sophisticated computer?! </p>
+
+              </div>
+            </div>
+            <div className="row1">
+              <div className="col-md-12">
+                <h2>Human Brain Wave</h2>
+                <ul>
+                  <li><strong>Gamma:</strong> Ideas, language and memory processing, and learning.</li>
+                  <li><strong>Beeta:</strong> Alert,busy,active. Most adult in beta waves.</li>
+                  <li><strong>Alpha:</strong> Relax (access intuition/genius condition/brain optimum).</li>
+                  <li><strong>Beeta:</strong> Deep meditation (almost sleep). Often feel spiritual experiences.</li>
+                  <li><strong>Delta:</strong> Sleep.</li>
+                </ul>
+              </div>
+            </div>
+
+
+
+          </div>
+        </section>
       </TabPanel>
-    <TabPanel value={value} index={5}>
-      Item Six
+      <TabPanel value={value} index={3}>
+
+        Item Four
       </TabPanel>
-    <TabPanel value={value} index={6}>
-      Item Seven
+      <TabPanel value={value} index={4}>
+        Item Five
+      </TabPanel>
+      <TabPanel value={value} index={5}>
+        Item Six
+      </TabPanel>
+      <TabPanel value={value} index={6}>
+        Item Seven
       </TabPanel>
     </div >
   );
