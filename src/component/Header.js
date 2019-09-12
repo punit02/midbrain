@@ -14,30 +14,9 @@ class Header extends React.Component {
                         <div className="left-section">
                         <img className="logo" src={Image}  alt="geniusmindacademy" />
                         </div>
-
-                         {/* <div className="right-section">
-
-                            <div className="textwidget">
-                                <ul>
-                                    <li>
-                                        <span className="phone"><i className="fa fa-phone"></i>&nbsp;&nbsp;Phone: <a href="tel:+918209359236"> +91820 935 9236</a> &nbsp;&nbsp;</span>
-                                        <span className="mail"><i className="fa fa-envelope-o"></i>&nbsp;&nbsp;<a href="mailto:unique.geniusmind@gmail.com">unique.geniusmind@gmail.com</a></span>
-                                    </li>
-
-                                </ul>
- 
-                            </div>
-
-
-                        </div> */}
-
                     </div>
-                    
-                   
-
                 </div>
                 <ScrollableTabsButtonAuto></ScrollableTabsButtonAuto>
-
             </div>
 
         )

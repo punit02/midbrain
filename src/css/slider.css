@@ -1,12 +1,13 @@
     #slides {
       display: none;
-      margin-top:-1%;
+      
      
     }
    
     #slides .slidesjs-container {
       
     margin-bottom: 10px;
+    height:400px!important;
 
     }
 
