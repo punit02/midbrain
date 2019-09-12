@@ -12,10 +12,10 @@ class Header extends React.Component {
 
                     <div className="row">
                         <div className="left-section">
-                        <img className="logo" src={Image}  width="800" height="200" alt="geniusmindacademy" />
+                        <img className="logo" src={Image}  alt="geniusmindacademy" />
                         </div>
 
-                        <div className="right-section">
+                         {/* <div className="right-section">
 
                             <div className="textwidget">
                                 <ul>
@@ -29,13 +29,14 @@ class Header extends React.Component {
                             </div>
 
 
-                        </div>
+                        </div> */}
 
                     </div>
-                    <ScrollableTabsButtonAuto></ScrollableTabsButtonAuto>
+                    
                    
 
                 </div>
+                <ScrollableTabsButtonAuto></ScrollableTabsButtonAuto>
 
             </div>
 
